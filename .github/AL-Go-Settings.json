@@ -6,5 +6,6 @@
   "workspaceCompilation": {
     "enabled": true,
     "parallelism": -1
-  }
+  },
+  "useProjectDependencies": true
 }
