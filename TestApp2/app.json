@@ -1,6 +1,6 @@
 {
-  "id": "cb7b04da-6b6d-440d-a21d-c31f425017e9",
-  "name": "TestApp",
+  "id": "cb7b04da-6b6d-440d-a21d-c31f425017e8",
+  "name": "TestApp2",
   "publisher": "TestPublisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -16,8 +16,8 @@
   "application": "27.0.0.0",
   "idRanges": [
     {
-      "from": 50001,
-      "to": 50010
+      "from": 50011,
+      "to": 50020
     }
   ],
   "features": [
