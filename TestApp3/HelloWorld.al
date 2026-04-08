@@ -5,7 +5,9 @@
 pageextension 50021 CustomerListExt3 extends "Customer List"
 {
     trigger OnOpenPage();
+    var
+        SharedCU: Codeunit SharedCodeunit1;
     begin
-        Message('App published: Hello world');
+        Message(SharedCU.GetGreeting());
     end;
 }
