@@ -4,6 +4,7 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@preview",
   "templateSha": "753ebe3247fb37b6e066585f582144a7ff60588f",
   "workspaceCompilation": {
-    "enabled": true
+    "enabled": true,
+    "parallelism": -1
   }
 }
