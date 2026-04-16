@@ -1,9 +1,1 @@
-{
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v9.0/.Modules/settings.schema.json",
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": [],
-  "useCompilerFolder": true,
-  "doNotPublishApps": true
-}
+{"country":"us","workspaceCompilation":{"enabled":true},"enablePerTenantExtensionCop":true,"doNotPublishApps":true,"doNotRunTests":true}
