@@ -1,31 +1,48 @@
 {
-  "id": "cb7b04da-6b6d-440d-a21d-c31f425017e9",
-  "name": "TestApp1",
-  "publisher": "TestPublisher",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "27.0.0.0",
-  "application": "27.0.0.0",
+  "id": "b6a27d7d-6b07-422c-a5c5-ae3136236215",
   "idRanges": [
     {
       "from": 50001,
       "to": 50010
     }
   ],
+  "dependencies": [
+    {
+      "id": "b9d41394-dbd7-4caa-8cd2-32f72d05ac78",
+      "name": "Advanced Incoming Document",
+      "version": "1.0.0.5",
+      "publisher": "4APP Solution d.o.o."
+    },
+    {
+      "id": "5a3f3e66-d4ed-40b2-89cc-a2e03b1cb293",
+      "name": "365 Client License Manager",
+      "version": "2700.202601.0.19",
+      "publisher": "365 Vertical"
+    },
+    {
+      "id": "d5a6bdde-e963-4a9b-b551-88df08955b3a",
+      "name": "4APP ADVANCED DISCOUNT",
+      "version": "26.3.0.4",
+      "publisher": "4APP Solution d.o.o."
+    },
+    {
+      "id": "ec255f57-31d0-4ca2-b751-f2fa7c745abb",
+      "name": "Shopify Connector",
+      "version": "28.0.0.0",
+      "publisher": "Microsoft"
+    }
+  ],
+  "version": "1.0.0.0",
+  "resourceExposurePolicy": {
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": true,
+    "allowDebugging": true
+  },
+  "publisher": "TestPublisher",
+  "application": "28.0.0.0",
   "features": [
     "NoImplicitWith"
   ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+  "name": "TestApp1",
+  "platform": "28.0.0.0"
 }
